@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Coffee</title>
+    
+    <link rel="stylesheet" href="assets/css/about-style.css" />
+    <link rel="stylesheet" href="assets/css/facts-style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/facts-style.css" />
+    <script type="text/javascript">
+     $(document).ready(function(){
+        $("#menu").on("click","a", function (event) {
+            event.preventDefault();
+            var id  = $(this).attr('href'),
+                top = $(id).offset().top;
+            $('body,html').animate({scrollTop: top}, 3000);
+        });
+    });
+    </script>
+	</head>
+	<body>
+        <header id="header" >
+            <div class="logo"><a href="index.html" id="yak0"><span style="margin-bottom: 30px">All about</span> Coffee </a></div>
+        </header>
+		<a href="index.html" >
+            <img src="images/beans.png" class="img-beans" style="right: 30px"/>
+        </a>
+        <a href="#yak0">
+          <img id="img_up" src="images/up.png" style="right: 30px">
+      </a>
+      
+      <section id="main-h">
+        <div class="inner">
+            <section id="three" class="wrapper">
+                <div class="row">
+                    <div class="col-3" >
+                        <h3 style="margin-left: 3%">Articles:</h3>
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            What is Coffee?
+                          </button>
+                          <div class="dropdown-menu dropdown-menu-right">
+                              <button class="dropdown-item" type="button"><a href="#yak1">Coffee trees</a></button>
+                              <button class="dropdown-item" type="button"><a href="#yak2">Botanical classification</a></button>
+                          </div>
+                        </div>
+                        <div class="btn-group" style="margin-top:20px">
+                          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            10 Steps from Seed to Cup
+                          </button>
+                          <div class="dropdown-menu dropdown-menu-right">
+                              <button class="dropdown-item" type="button"><a href="#step1">1. Planting</a></button>
+                              <button class="dropdown-item" type="button"><a href="#step2">2. Harvesting the Cherries</a></button>
+                              <button class="dropdown-item" type="button"><a href="#step3">3. Processing the Cherries</a></button>
+                              <button class="dropdown-item" type="button"><a href="#step4">4. Drying the Beans</a></button>
+                              <button class="dropdown-item" type="button"><a href="#step5">5. Milling the Beans</a></button>
+                              <button class="dropdown-item" type="button"><a href="#step6">6. Exporting the Beans</a></button>
+                              <button class="dropdown-item" type="button"><a href="#step7">7. Tasting the Coffee</a></button>
+                              <button class="dropdown-item" type="button"><a href="#step8">8. Roasting the Coffee</a></button>
+                              <button class="dropdown-item" type="button"><a href="#step9">9. Grinding Coffee</a></button>
+                              <button class="dropdown-item" type="button"><a href="#step10">10. Brewing Coffee</a></button>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <h2>What is Coffee?</h2>
+                        <p class="p">Everyone recognizes a roasted coffee bean, but you might not recognize an actual coffee plant.</p>
+                        <h3 id="yak1">Coffee trees</h3>
+                        <hr/>
+                        <img src="images/img-ab1.jpg" style="float:left; margin-right: 10px; margin-bottom: 10px; width:20%"/>
+                        <p>Coffee trees are pruned short to conserve their energy and aid in harvesting, but can grow to more than 30 feet (9 meters) high. Each tree is covered with green, waxy leaves growing opposite each other in pairs. Coffee cherries grow along the branches. Because it grows in a continuous cycle, it’s not unusual to see flowers, green fruit and ripe fruit simultaneously on a single tree.</p>
+                        <p>It takes nearly a year for a cherry to mature after first flowering, and about 5 years of growth to reach full fruit production. While coffee plants can live up to 100 years, they are generally the most productive between the ages of 7 and 20. Proper care can maintain and even increase their output over the years, depending on the variety. The average coffee tree produces 10 pounds of coffee cherry per year, or 2 pounds of green beans.</p>
+                        <p>All commercially grown coffee is from a region of the world called the <a href="http://www.ncausa.org/About-Coffee/Coffee-Around-the-World" class="ref">Coffee Belt</a>. The trees grow best in rich soil, with mild temperatures, frequent rain and shaded sun.</p>
+                   
+                        <h3 id="yak2">Botanical classification</h3>
+                        <hr/>
+                        
+                        <p>Coffee traces its origin to a genus of plants known as Coffea.  Within the genus there are over 500 genera and 6,000 species of tropical trees and shrubs. Experts estimate that there are anywhere from 25 to 100 species of coffee plants. The genus was first described in the 18th century by the Swedish botanist, Carolus Linneaus, who also described Coffea Arabica in his Species Plantarum in 1753. Botanists have disagreed ever since on the exact classification, since coffee plants can range widely. They can be small shrubs to tall trees, with leaves from one to 16 inches in size, and in colors from purple or yellow to the predominant dark green. In the commercial coffee industry, there are two important coffee species — Arabica and Robusta.</p>
+                        <p class="p">Coffea Arabica — C. Arabica </p>
+                        <p><i>Coffea Arabica</i> is descended from the original coffee trees discovered in Ethiopia.  These trees produce a fine, mild, aromatic coffee and represent approximately 70% of the world's coffee production. The beans are flatter and more elongated than Robusta and lower in caffeine.</p>
+                        <p>On the world market, Arabica coffees bring the highest prices.  The better Arabicas are high grown coffees — generally grown between 2,000 to 6,000 feet (610 to 1830 meters) above sea level — though optimal altitude varies with proximity to the equator. </p>
+                        <p class="p">Coffea canephora — C. canephora var. Robusta</p>
+                        <p>Most of the world's Robusta is grown in Central and Western Africa, parts of Southeast Asia, including Indonesia and Vietnam, and in Brazil. Production of Robusta is increasing, though it accounts for only about 30% of the world market. </p>
+                        <p>Robusta is primarily used in blends and for instant coffees. The Robusta bean itself tends to be slightly rounder and smaller than an Arabica bean. The Robusta tree is heartier and more resistant to disease and parasites, which makes it easier and cheaper to cultivate.</p>
+                   
+                       
+                        <h2>10 Steps from Seed to Cup</h2>
+                        <p class="p">Between the time they’re planted, picked and purchased, coffee beans go through a typical series of steps to bring out their best.</p>
+                        <div class="spotlight" style="padding: 0px">
+							<div class="image flush"><img src="images/img-ab2.jpg" alt="Planting" /></div>
+							<div class="inner" id="step1">
+								<h3>1. Planting</h3>
+								<p>A coffee bean is actually a seed. When dried, roasted and ground, it’s used to brew coffee. If the seed isn’t processed, it can be planted and grow into a coffee tree.</p>
+								<p>Coffee seeds are generally planted in large beds in shaded nurseries. The seedlings will be watered frequently and shaded from bright sunlight until they are hearty enough to be permanently planted. Planting often takes place during the wet season, so that the soil remains moist while the roots become firmly established.</p>
+							</div>
+						</div>
+						<div class="spotlight alt">
+							<div class="image flush"><img src="images/img-ab3.jpg" alt="Harvesting the Cherries" /></div>
+							<div class="inner" id="step2">
+							    <h3 >2. Harvesting the Cherries</h3>
+								<p>Depending on the variety, it will take approximately 3 to 4 years for the newly planted coffee trees to bear fruit. The fruit, called the coffee cherry, turns a bright, deep red when it is ripe and ready to be harvested.  <span>There is typically one major harvest a year. In countries like Colombia, where there are two flowerings annually, there is a main and secondary crop.</span></p>
+								<p>In most countries, the crop is picked by hand in a labor-intensive and difficult process, though in places like  Brazil where the landscape is relatively flat and the coffee fields immense, the  process has been mechanized.</p>
+							</div>
+						</div>
+                        <div class="spotlight" style="padding: 0px">
+							<div class="image flush"><img src="images/img-ab4.jpg" alt="Processing the Cherries"/></div>
+							<div class="inner" id="step3">
+								<h3>3. Processing the Cherries </h3>
+                                <p>Once the coffee has been picked, processing must begin as quickly as possible to prevent fruit spoilage. Depending on location and local resources, coffee is processed in one of two ways: <b>The Dry Method</b> or <b>The Wet Method.</b></p>
+                                <p>Then the beans are separated by weight as they pass through water channels. After separation, the beans are transported to large, water-filled fermentation tanks. Depending on a combination of factors -- such as the condition of the beans, the climate and the altitude -- they will remain in these tanks for anywhere from 12 to 48 hours to remove the slick layer of mucilage (called the <i>parenchyma</i>) that is still attached to the parchment. While resting in the tanks, naturally occurring enzymes will cause this layer to dissolve. </p>
+                                <p>When fermentation is complete, the beans feel rough to the touch.  The beans are rinsed by going through additional water channels, and are ready for drying.</p>
+							</div>
+						</div>
+						<div class="spotlight alt">
+							<div class="image flush"><img src="images/img-ab5.jpg" alt="Drying the Beans" /></div>
+							<div id="step4" class="inner">
+							    <h3>4. Drying the Beans</h3>
+								<p>If the beans have been processed by the wet method, the pulped and fermented beans must now be dried to approximately 11% moisture to properly prepare them for storage. </p>
+                                <p>These beans, still inside the parchment envelope (the <i>endocarp</i>), can be sun-dried by spreading them on drying tables or floors, where they are turned regularly, or they can be machine-dried in large tumblers. The dried beans are known as <i>parchment coffee</i>, and are warehoused in jute or sisal bags until they are readied for export. </p>
+							</div>
+						</div>
+                   <div class="spotlight" >
+							<div class="image flush"><img src="images/img-ab6.jpg" alt="Milling the Beans"/></div>
+							<div class="inner" id="step5">
+								<h3>5. Milling the Beans </h3>
+                                <p>Before being exported, <i>parchment coffee</i> is processed in the following manner: <b>Hulling </b> ,<b>Polishing </b>, <b>Grading and Sorting</b>.</p>
+                                <p>Beans are sized by being passed through a series of screens. They are also sorted pneumatically by using an air jet to separate heavy from light beans.</p>
+                                <p>Finally, defective beans are removed either by hand or by machinery. Beans that are unsatisfactory due to deficiencies (unacceptable size or color, over-fermented beans, insect-damaged, unhulled) are removed. In many countries, this process is done both by machine and by hand, ensuring that only the finest quality coffee beans are exported.</p>
+							</div>
+						</div>
+						<div class="spotlight alt">
+							<div class="image flush"><img src="images/img-ab7.jpg" alt="Exporting the Beans" /></div>
+							<div  class="inner" id="step6">
+							    <h3>6. Exporting the Beans</h3>
+                                <p>The milled beans, now referred to as <i>green coffee</i>, are loaded onto ships in either jute or sisal bags loaded in shipping containers, or bulk-shipped inside plastic-lined containers.</p>
+							</div>
+						</div>
+                   <div class="spotlight">
+							<div class="image flush"><img src="images/img-ab8.jpg" alt="Tasting the Coffee"/></div>
+							<div class="inner" id="step7">
+								<h3>7. Tasting the Coffee</h3>
+                                <p>Coffee is repeatedly tested for quality and taste.  This process is referred to as <i>cupping</i> and usually takes place in a room specifically designed to facilitate the process.</p>
+                                <p>Samples from a variety of batches and different beans are tasted daily. Coffees are not only analyzed to determine their characteristics and flaws, but also for the purpose of blending different beans or creating the proper roast. An expert cupper can taste hundreds of samples of coffee a day and still taste the subtle differences between them. </p>
+							</div>
+						</div>
+						<div class="spotlight alt">
+							<div class="image flush"><img src="images/img-ab9.jpg" alt="Roasting the Coffee" /></div>
+							<div  class="inner" id="step8">
+							    <h3>8. Roasting the Coffee</h3>
+                                <p>Roasting transforms green coffee into the aromatic brown beans that we purchase in our favorite stores or cafés. Most roasting machines maintain a temperature of about 550 degrees Fahrenheit. The beans are kept moving throughout the entire process to keep them from burning.</p>
+                                <p>When they reach an internal temperature of about 400 degrees Fahrenheit, they begin to turn brown and the caffeol, a fragrant oil locked inside the beans, begins to emerge. This process called pyrolysis is at the heart of roasting — it produces the flavor and aroma of the coffee we drink. After roasting, the beans are immediately cooled either by air or water. </p>
+							</div>
+						</div>
+                   <div class="spotlight">
+							<div class="image flush"><img src="images/img-ab10.jpg" alt="Grinding Coffee"/></div>
+							<div class="inner" id="step9">
+								<h3>9. Grinding Coffee</h3>
+                                <p>The objective of a proper grind is to get the most flavor in a cup of coffee. How coarse or fine the coffee is ground depends on the brewing method. The length of time the grounds will be in contact with water determines the ideal grade of grind Generally, the finer the grind, the more quickly the coffee should be prepared. </p>
+                                <p class="p"><i>Espresso machines use 132 pounds per square inch of pressure to extract coffee.</i></p>
+							</div>
+						</div>
+						<div class="spotlight alt">
+							<div class="image flush"><img src="images/img-ab10.gif" alt="Brewing Coffee" /></div>
+							<div class="inner" id="step10">
+							    <h3>10. Brewing Coffee</h3>
+                                <p>To master <a href="https://www.ncausa.org/About-Coffee/How-to-Brew-Coffee" class="ref">how to brew coffee</a>, use our guide for tips and methods on how to make the perfect cup for any preference. Enjoy!</p>
+							</div>
+						</div>
+                    </div>    
+                </div>
+            </section>
+        </div>
+      </section>
+      <footer id="footer">
+				<div class="copyright">
+					&copy; Designed by <a href="index.html">AG</a>
+				</div>
+      </footer>
+</body>
+</html>

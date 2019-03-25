@@ -1,0 +1,38 @@
+header{
+    z-index: 10;
+}
+.img-top{
+    width:70%;
+}
+#main-h > .inner {
+    margin: 0 auto;
+    width: 90rem;
+    max-width: 90%;
+    margin-bottom: 2rem;
+    background: rgba(255, 255, 255, 0.95);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    padding: 20px;
+    padding-right: 30px;
+}
+.gallery{
+    margin-bottom: 10px;
+}
+.left-gallery{
+    width: 30%; 
+    float: left; 
+    margin-right: 10px;
+}
+.right-gallery{
+    width: 30%; 
+    float: right; 
+    margin-left: 10px;
+}
+.ref:active{
+    color:black;
+}
+.ref:hover{
+    color:black;
+}

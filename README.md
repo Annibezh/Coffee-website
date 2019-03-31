@@ -5,7 +5,7 @@ Stack of technologies:
 - JS (jQuery)
 - Bootstrap
 
-*Some screenshots:*
+***Some screenshots:***
 ## Main page
 Main page with video background
 ![alt text](https://github.com/Annibezh/Coffee-website/blob/master/images/main.png)
